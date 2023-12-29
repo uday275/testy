@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+P {
+  text-align: justify;
+  padding-bottom: 2%;
+}
+
+body {
+  background-image: url("");
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+  /* Use a professional font */
+  font-size: 16px;
+  /* Adjust size as needed */
+  line-height: 1.6;
+  /* Space between lines */
+  word-spacing: 0.3em;
+  /* Space between words */
+  color: #0c0c0c;
+  /* Dark grey color for text */
+
+
+}
+
+.logo {
+  width: 200px;
+  height: 40px;
+}
+
+.menu-bar {
+  position: static;
+  background: rgb(0, 0, 255);
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: flex;
+  list-style: none;
+  color: #fff;
+}
+
+.menu-bar ul li {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.menu-bar ul li a {
+
+  text-decoration: none;
+  color: #fff;
+}
+
+.active,
+.menu-bar ul li:hover {
+  background: #030404;
+  border-radius: 6%;
+
+}
+
+.menu-bar.active {
+  background-color: #04AA6D !important;
+  color: #fff !important;
+}
+
+
+h2 {
+  color: #df3a01;
+  line-height: 2;
+  font: 15px verdana, helvetica, arial, sans-serif;
+  display: inline;
+
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 23px;
+
+  background: url(https://static.javatpoint.com/images/logo/icon_bullet.png) no-repeat;
+  color: #df3a01;
+  font: 15px verdana, helvetica, arial, sans-serif;
+  display: inline;
+  margin-top: 5px;
+  float: left;
+}
+
+h3 {
+  color: #df3a01;
+  line-height: 2;
+  font: 15px verdana, helvetica, arial, sans-serif;
+  display: inline;
+
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 23px;
+
+  background: url(https://static.javatpoint.com/images/logo/icon_bullet.png) no-repeat;
+  color: #df3a01;
+  font: 15px verdana, helvetica, arial, sans-serif;
+  display: inline;
+  margin-top: 5px;
+  float: left;
+}
+
+h4 {
+  color: #df3a01;
+  line-height: 2;
+  font: 15px verdana, helvetica, arial, sans-serif;
+  display: inline;
+
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 23px;
+
+  background: url(assets\icon\arrowbullet.png) no-repeat;
+  color: #df3a01;
+  font: 15px verdana, helvetica, arial, sans-serif;
+  display: inline;
+  margin-top: 5px;
+  float: left;
+}
+
+.c1 {
+  font-family: erdana, helvetica, arial, sans-serif;
+  font-size: 29px;
+  color: #610b20;
+  font-weight: 400;
+  margin-top: 5px;
+  line-height: 1.3em;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 6;
+  padding: 0;
+  word-wrap: break-word;
+
+
+
+}
+
+.sidebar li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: 10px;
+  margin-top: 2px;
+  float: left;
+  background: url(https://static.javatpoint.com/images/arrowbullet.png) 0 4px no-repeat;
+  padding-left: 15px;
+  font: 13px verdana, helvetica, arial, sans-serif;
+  line-height: 21px;
+  color: #000;
+  text-decoration: rgb(190, 201, 192);
+
+}
+
+
+
+.sidebar a:hover {
+  color: rgb(34, 2, 59);
+  text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+.inbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  flex: 1;
+  width: 15%;
+  height: 100%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-width: 10px;
+  padding-top: 20px;
+  padding-bottom: 100%;
+  overflow: scroll;
+}
+
+.sidebar a.active {
+  background-color: #19bcbf;
+}
+
+
+
+.main {
+
+  flex: 4;
+  margin-bottom: auto;
+
+  padding-left: 3%;
+  padding-top: 3%;
+  position: relative;
+  width: 55%;
+  background-color: #ffffff;
+}
+
+.extra {
+  width: 30%;
+}
+
+.col-3 {
+  width: 100%;
+  float: none
+}
+
+.onlycontentad {
+  display: none
+}
+
+.main ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+.main ul li {
+
+  padding-left: 25px;
+  /* Adjust this value for more or less right indentation */
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+/* Reset some default styles */
+
+table {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a simple style to the table */
+.table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Style the table headers */
+.table th {
+  background-color: #f2f2f2;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style alternating rows */
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style the table cells */
+.table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Make the first column bold */
+.table td:first-child,
+.table th:first-child {
+  font-weight: bold;
+}
+
+.points {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+.points li {
+  margin-bottom: 8px;
+  padding-left: 25px;
+  /* Adjust this value for more or less right indentation */
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: middle;
+  font-size: 14px;
+  color: #666;
+}
